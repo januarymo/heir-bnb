@@ -1,1 +1,7 @@
-index.html.erb
+ <% @palaces.each do |palace| %>
+  <h2><%= palace.name %></h2>
+  <h2><%= palace.description %></h2>
+  <h2><%= palace.location %></h2>
+  <h2><%= palace.price %></h2>
+
+  <% end %>
