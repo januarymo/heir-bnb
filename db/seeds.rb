@@ -1,7 +1,19 @@
+require 'faker'
 
+brandon = User.create(
+    email: "user1@user.com",
+    password: "123456"
+  )
 
-puts 'Creating palaces...'
-palace1 = Palace.new(name: "Buckingham Palace", description: "Feel like a princess", price: 10000000, location: "London", user_id: 1 )
-palace1.save!
-
+puts 'Creating 20 fake palaces...'
+20.times do
+  palace = Palace.new(
+    name:    Faker::FunnyName.name,
+    description: Faker::Restaurant.description,
+    location: Faker::Address.city,
+    price:  rand(100000..500000),
+    user: brandon
+  )
+  palace.save!
+end
 puts 'Finished!'
