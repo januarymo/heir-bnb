@@ -2,9 +2,9 @@
   <div class="row">
   <% @palaces.each do |palace| %>
     <div class="col-lg-4 pt-5">
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1572370666120-d171df6d8473?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=80)">
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dg1vldahp/image/upload/v1582668435/dorian-mongel-Yui3DZiX7yM-unsplash_ldunks.jpg)">
         <div class="text-center">
-          <h4><%= palace.name %></h4>
+          <h4><%= link_to palace.name, palace_path(palace) %></h4>
           <p><%= palace.location %></p>
           <p><%= palace.price %></p>
         </div>
