@@ -3,17 +3,19 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), image-url("background-home-2.jpeg");
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), image-url("background-home-2.jpeg");
   background-size: cover;
+
   h1 {
     color: white;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 100px;
+    margin-bottom: 60px
   }
-  p {
+  h2 {
     color: pink;
-    font-size: 30px;
-    margin-bottom: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
   }
 
 }
