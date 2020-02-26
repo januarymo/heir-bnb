@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :palaces, only: [:index, :show]
+  resources :palaces, only: [:index, :show, :new]
   devise_for :users
   root to: 'pages#home'
 
