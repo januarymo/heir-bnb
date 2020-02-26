@@ -2,15 +2,17 @@
 <div class="banner">
   <div class="banner-content text-center">
     <h1>Heirbnb</h1>
-    <p>You deserve better</p>
-    <%= link_to "Search Palaces", palaces_path, class: "btn btn-ffc0cb" %>
+    <h2>You deserve better</h2>
+
+    <a class="btn btn-flat" href="/palaces">View All Palaces</a>
+
 
 
   </div>
 </div>
 
 <div>
-  <h1>Trending now...</h1>
+  <p>Trending now...</p>
 </div>
 
 <%= render 'components/cards-trending' %>
