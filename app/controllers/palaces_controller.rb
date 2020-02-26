@@ -8,9 +8,27 @@ class PalacesController < ApplicationController
   def show
     @palace = Palace.find(params[:id])
   end
+
+  def new
+    @palace = Palace.new
+  end
+
+  def create
+    @palace = Palace.new(palace_params)
+    @palace.user = current_user
+    if @palace.save
+      redirect_to palace_path(@palace), notice: 'Your palace was succesfully listed'
+    else
+      render :new
+    end
+  end
 end
 
 
 private
+
+def palace_params
+  params.require(:palace).permit(:name, :location, :description, :photo, :price)
+end
 
 
