@@ -53,38 +53,38 @@ Palace.create!(
   )
 
 Palace.create!(
-  name: "Rihanna's House",
-  description: "You know you made it if you can stay at Rihanna's house",
-  price: 64000,
-  location: "Barbados",
-  photo: "https://res.cloudinary.com/dg1vldahp/image/upload/v1582679341/Rihanna_s_House_n0qygf.jpg",
+  name: "Biltmore Estate",
+  description: "Live like a Vanderbilt",
+  price: 25000,
+  location: "Asheville, NC",
+  photo: "https://res.cloudinary.com/dg1vldahp/image/upload/v1582680954/stephanie-klepacki-cnBUaES5FtM-unsplash_iidqgb.jpg",
   user: brandon
   )
 
 Palace.create!(
-  name: "Rihanna's House",
-  description: "You know you made it if you can stay at Rihanna's house",
-  price: 64000,
-  location: "Barbados",
-  photo: "https://res.cloudinary.com/dg1vldahp/image/upload/v1582679341/Rihanna_s_House_n0qygf.jpg",
+  name: "Palace of Versailles",
+  description: "Be Frenchy",
+  price: 45000,
+  location: "France",
+  photo: "https://res.cloudinary.com/dg1vldahp/image/upload/v1582681100/stephanie-leblanc-v5qQqY37wMA-unsplash_qtchqs.jpg",
   user: brandon
   )
 
 Palace.create!(
-  name: "Rihanna's House",
-  description: "You know you made it if you can stay at Rihanna's house",
-  price: 64000,
-  location: "Barbados",
-  photo: "https://res.cloudinary.com/dg1vldahp/image/upload/v1582679341/Rihanna_s_House_n0qygf.jpg",
+  name: "Jabba the Hutt's Palace",
+  description: "muahahaha",
+  price: 400000,
+  location: "Nal Hutta, The Galaxy",
+  photo: "https://res.cloudinary.com/dg1vldahp/image/upload/v1582681368/databank_jabbathehuttspalace_01_169_f7f5feb6_mptkb2.jpg",
   user: brandon
   )
 
 Palace.create!(
-  name: "Rihanna's House",
-  description: "You know you made it if you can stay at Rihanna's house",
-  price: 64000,
-  location: "Barbados",
-  photo: "https://res.cloudinary.com/dg1vldahp/image/upload/v1582679341/Rihanna_s_House_n0qygf.jpg",
+  name: "The Palace of Pena",
+  description: "Portugal!",
+  price: 30000,
+  location: "Portugal",
+  photo: "https://res.cloudinary.com/dg1vldahp/image/upload/v1582682193/pena_lnmpq4.jpg",
   user: brandon
   )
 
