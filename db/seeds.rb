@@ -186,5 +186,3 @@ Palace.create!(
   photo: "https://res.cloudinary.com/dg1vldahp/image/upload/v1582679341/Rihanna_s_House_n0qygf.jpg",
   user: brandon
   )
-
-
