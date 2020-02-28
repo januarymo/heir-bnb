@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), image-url("background-home-2.jpeg");
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), image-url("banner-home-2.jpeg");
   background-size: cover;
 
   h1 {
@@ -16,6 +16,7 @@
     color: pink;
     font-size: 50px;
     margin-bottom: 20px;
+    font-family: 'Rajdhani', sans-serif;
   }
 
 }
