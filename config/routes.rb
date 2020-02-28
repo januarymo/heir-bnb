@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   resources :palaces, only: [:index, :show, :new, :create] do
+    collection do
+      get 'owned'
+    end
     resources :bookings, only: [:new, :create]
 
   end

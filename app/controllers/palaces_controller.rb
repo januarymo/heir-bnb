@@ -5,6 +5,10 @@ class PalacesController < ApplicationController
     @palaces = Palace.all
   end
 
+  def owned
+    @palaces = Palace.where(user: current_user)
+  end
+
   def show
     @palace = Palace.find(params[:id])
     @booking = Booking.new
