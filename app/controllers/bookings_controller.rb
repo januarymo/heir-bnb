@@ -18,7 +18,12 @@ class BookingsController < ApplicationController
     @palace = Palace.find(params[:palace_id])
     @booking.palace = @palace
     @booking.user = current_user
-    @booking.save
+
+    if @booking.save
+      redirect_to palace_path(@palace), notice: "Successfully Booked!"
+    else
+      render "palaces/show"
+    end
   end
 
 
