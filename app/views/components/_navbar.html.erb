@@ -1,6 +1,6 @@
 
 
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon fixed-top">
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon <%= current_page?(root_path) ? 'fixed-top' : 'sticky-top' %>">
   <!-- Logo -->
   <%= link_to root_path, class: "navbar-brand" do %>
     <%= cl_image_tag "https://res.cloudinary.com/dg1vldahp/image/upload/v1582854196/tiaraa_zsyvk8.svg" %>
