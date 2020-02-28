@@ -1,5 +1,5 @@
 class User::BookingsController < ApplicationController
-  def index
+  def booked
     @bookings = Booking.where(user: current_user)
   end
 end

@@ -3,7 +3,12 @@ Rails.application.routes.draw do
     collection do
       get 'owned'
     end
-    resources :bookings, only: [:new, :create]
+  end
+  resources :users do
+    resources :bookings, only: [:index, :show, :new, :create]
+      collection do
+      get 'booked'
+      end
   end
 
   devise_for :users
