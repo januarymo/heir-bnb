@@ -1,9 +1,9 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Courgette|Play&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Rajdhani&display=swap');
 
 // Define fonts for body and headers
-$body-font: "Play", "Helvetica", "sans-serif";
-$headers-font: "Courgette", "Helvetica", "serif";
+$body-font: "Rajdhani", "Helvetica", "sans-serif";
+$headers-font: "Oswald", "Helvetica", "serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -12,5 +12,5 @@ $headers-font: "Courgette", "Helvetica", "serif";
 //   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
 //        font-url('FontFile.woff') format('woff'),
 //        font-url('FontFile.ttf') format('truetype')
-// }
+//
 // $my-font: "Font Name";
