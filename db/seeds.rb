@@ -45,14 +45,14 @@ palace.photo.attach(
 palace.save!
 
 palace = Palace.new(
-  name: "Rihanna's House",
-  description: "You know you made it if you can stay at Rihanna's house",
+  name: "California Wine Mansion",
+  description: "In the hearty of wine country",
   price: 64000,
   location: "Barbados",
   user: andrea
 )
 palace.photo.attach(
-  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582679341/Rihanna_s_House_n0qygf.jpg"),
+  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582930780/california_mansion_mx5wbn.png"),
   filename: "photo.jpg",
   content_type: 'image/png'
 )
@@ -164,49 +164,49 @@ palace = Palace.new(
   user: andrea
 )
 palace.photo.attach(
-  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582679341/Rihanna_s_House_n0qygf.jpg"),
+  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582929792/egypt_ihfvfa.jpg"),
   filename: "photo.jpg",
   content_type: 'image/png'
 )
 palace.save!
 
 palace = Palace.new(
-  name: "Beauty and the Heat",
-  description: "You know you made it if you can stay at Rihanna's house",
+  name: "Mansion on the Hill",
+  description: "A butler for each room",
   price: 64000,
   location: "Las Vegas",
   user: andrea
 )
 palace.photo.attach(
-  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582679341/Rihanna_s_House_n0qygf.jpg"),
+  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582930327/pretentious_house_d0rwug.jpg"),
   filename: "photo.jpg",
   content_type: 'image/png'
 )
 palace.save!
 
 palace = Palace.new(
-  name: "Pool Palace",
-  description: "You know you made it if you can stay at Rihanna's house",
+  name: "Japanese Palace",
+  description: "A not-so-humble abode",
   price: 64000,
-  location: "Santa Ana",
+  location: "Japan",
   user: andrea
 )
 palace.photo.attach(
-  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582679341/Rihanna_s_House_n0qygf.jpg"),
+  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582930275/japan_itl4jd.jpg"),
   filename: "photo.jpg",
   content_type: 'image/png'
 )
 palace.save!
 
 palace = Palace.new(
-  name: "Palm Tree Haven",
-  description: "Miles of palm trees",
+  name: "Spooky Palace",
+  description: "Haunted Castle",
   price: 12000,
-  location: "Hollywood, CA",
+  location: "Hungary",
   user: brandon
 )
 palace.photo.attach(
-  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582679341/Rihanna_s_House_n0qygf.jpg"),
+  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582930229/hungary_xuuw7x.jpg"),
   filename: "photo.jpg",
   content_type: 'image/png'
 )
@@ -214,9 +214,9 @@ palace.save!
 
 palace = Palace.new(
   name: "Cali Living",
-  description: "You know you made it if you can stay at Rihanna's house",
+  description: "The best of california",
   price: 64000,
-  location: "The Hills",
+  location: "Hollywood",
   user: andrea
 )
 palace.photo.attach(
@@ -228,13 +228,13 @@ palace.save!
 
 palace = Palace.new(
   name: "Summer Home",
-  description: "You know you made it if you can stay at Rihanna's house",
+  description: "Exotic Getaway",
   price: 64000,
-  location: "Cancun",
+  location: "Bali",
   user: andrea
 )
 palace.photo.attach(
-  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582679341/Rihanna_s_House_n0qygf.jpg"),
+  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582930444/Villa-Melissa-Bali-exterior_ehrzql.jpg"),
   filename: "photo.jpg",
   content_type: 'image/png'
 )
@@ -242,13 +242,13 @@ palace.save!
 
 palace = Palace.new(
   name: "Summer Palace",
-  description: "You know you made it if you can stay at Rihanna's house",
+  description: "Master bedroom with infinity pool",
   price: 64000,
   location: "Peru",
   user: andrea
 )
 palace.photo.attach(
-  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582679341/Rihanna_s_House_n0qygf.jpg"),
+  io: URI.open("https://res.cloudinary.com/dg1vldahp/image/upload/v1582930376/mansion_epdggs.jpg"),
   filename: "photo.jpg",
   content_type: 'image/png'
 )
