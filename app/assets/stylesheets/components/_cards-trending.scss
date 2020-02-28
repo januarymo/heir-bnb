@@ -1,7 +1,8 @@
-.cards {
+.cards-trending {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
+  padding: 0 20px 0 20px;
 }
 
 // Smallest device
@@ -38,3 +39,53 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+.trending{
+  margin-top: 15px;
+}
+
+.trending p {
+  padding-left:15px;
+  font-size: 32px;
+}
+
+.card-trending {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-trending > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trending h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trending p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-trending .card-trending-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-trending-infos .card-trending-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
