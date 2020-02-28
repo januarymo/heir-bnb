@@ -17,6 +17,7 @@ class BookingsController < ApplicationController
     @booking = Booking.new(booking_params)
     @palace = Palace.find(params[:palace_id])
     @booking.palace = @palace
+    @booking.user = current_user
     @booking.save
   end
 
