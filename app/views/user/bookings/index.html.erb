@@ -3,7 +3,7 @@
   <div class="col-6">
     <h2>My bookings</h2>
     <% @user_bookings.each do |booking| %>
-      <%= render "components/room-card", palace: booking.palace %>
+      <%= render "components/cards-trending", palace: booking.palace %>
     <% end %>
   </div>
 </div>
